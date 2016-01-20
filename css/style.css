@@ -1,0 +1,111 @@
+body {
+	background: url(../images/Cover.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 100px;
+}
+.border {
+	border: 4px solid white;
+}
+
+.navbar-header {
+    float: left;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar{
+	background-color:#D9E5D6;
+	border: none;
+}
+
+.navbar h1 {
+
+	color: #F7A072;
+}
+
+.input-group {
+	width: 80%;
+}
+
+.navbar-form {
+	text-align:center;
+}
+
+.input-group-btn {
+	width: 10%;
+}
+
+ul>h1 {
+	margin-top:0;
+}
+@media (min-width: 768px) {
+.navbar-form .input-group .input-group-btn {
+    width: 10%; 
+}
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.list {
+	text-align: center;
+	list-style: none;
+	padding-left:0;
+	padding-top: 15px;
+}
+
+.max {
+	max-width: 456px;
+	margin-top: 100px;
+	background-color: #D9E5D6;
+}
+
+ul>li {
+	
+	margin: 10px 0;
+	font-size: 2em;
+	background-color: #F7A072;
+}
+
+.transparent {
+	background-color: transparent;
+	border: none;
+	margin-left: 40%;
+}
+
+.transparent:hover{
+	color: red;
+}
+
+.strikethrough {
+
+}
+
+.strikethrough:checked + span {
+  text-decoration: line-through;
+}
+span {
+	padding-left: 10%;
+}
+
+.btn-color {
+	background-color: #00A7E1;
+}
+
+.btn-color:hover {
+	background-color: #00A7E1;
+}
+
+.btn-color:active {
+	background-color: #00A7E1;
+}
+
+.btn-color:focus {
+	background-color: #00A7E1;
+}
